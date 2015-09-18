@@ -34,7 +34,7 @@
   "dependencies": {
     "dover": "~1.1.0",
     "observ": "~0.2.0",
-    "phones": "~1.0.0",
+    "phones": "~2.0.0",
     "value-event": "~5.1.0",
     "value-pipe": "~1.0.0",
     "virtual-dom": "~2.1.1",

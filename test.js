@@ -13,7 +13,7 @@ test('state to dom', function (t) {
   render(function (state, element, done) {
     state.value.set('4155550000')
     raf(function () {
-      t.equal(element.value, '415 555 0000')
+      t.equal(element.value, '415-555-0000')
       done()
     })
   })
@@ -22,7 +22,7 @@ test('state to dom', function (t) {
 test('dom to state', function (t) {
   t.plan(2)
   render(function (state, element, done) {
-    element.value = '415 555 1111'
+    element.value = '415-555-1111'
     dispatchEvent(element, 'input', {
       bubbles: true
     })

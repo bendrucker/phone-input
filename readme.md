@@ -51,7 +51,7 @@ The validity state of the number. Treat as read only.
 
 #### `PhoneInput.render(state, options)` -> `object`
 
-Render a phone state to a vtree object. `options` will be merged with the defaults (`{type: 'tel', name: 'phone'}`) and passed to [virtual-hyperscript](https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript). Set `options.separator` to change the default of spacing number groups.
+Render a phone state to a vtree object. `options` will be merged with the defaults (`{type: 'tel', name: 'phone'}`) and passed to [virtual-hyperscript](https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript). Set `options.separator` to change the default of dash-separated number groups.
 
 ## License
 
