@@ -43,11 +43,9 @@ Type: `string`
 
 The phone number, a string of digits with no punctuation.
 
-###### valid
+#### `PhoneInput.validate(state)` -> `boolean`
 
-Type: `boolean`
-
-The validity state of the number. Treat as read only.
+Validate the current value.
 
 #### `PhoneInput.render(state, options)` -> `object`
 

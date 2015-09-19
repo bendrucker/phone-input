@@ -28,7 +28,7 @@ test('dom to state', function (t) {
     })
     raf(function () {
       t.equal(state.value(), '4155551111')
-      t.equal(state.valid(), true)
+      t.ok(PhoneInput.validate(state))
       done()
     })
   })
