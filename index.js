@@ -14,5 +14,5 @@ module.exports = Input({
 })
 
 function format (value, options) {
-  phone.format(value, options.separator)
+  return phone.format(value, options.separator)
 }
