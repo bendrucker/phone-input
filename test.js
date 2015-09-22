@@ -9,11 +9,20 @@ var PhoneInput = require('./')
 var render = thermometer.createComponent(PhoneInput)
 
 test('state to dom', function (t) {
-  t.plan(1)
+  t.plan(2)
+
   render(function (state, element, done) {
     state.value.set('4155550000')
     raf(function () {
       t.equal(element.value, '415-555-0000')
+      done()
+    })
+  })
+
+  render(function (state, element, done) {
+    state.value.set(null)
+    raf(function () {
+      t.equal(element.value, '')
       done()
     })
   })
