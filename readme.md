@@ -1,4 +1,4 @@
-# phone-input [![Build Status](https://travis-ci.org/bendrucker/phone-input.svg?branch=master)](https://travis-ci.org/bendrucker/phone-input)
+# phone-input [![Build Status](https://travis-ci.org/bendrucker/phone-input.svg?branch=master)](https://travis-ci.org/bendrucker/phone-input) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/phone-input.svg)](https://greenkeeper.io/)
 
 > US phone input component for virtual-dom
 
